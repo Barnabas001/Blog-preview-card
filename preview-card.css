@@ -20,6 +20,12 @@ body {
   padding: 10px;
   box-shadow: 8px 8px black;
   border: 1px solid black;
+  transition: 0.2s;
+}
+
+.container:hover {
+  transform: translate(10px, 10px);
+  box-shadow: none;
 }
 
 .illustration-img {
